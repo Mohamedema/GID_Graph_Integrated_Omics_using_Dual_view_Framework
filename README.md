@@ -40,7 +40,7 @@ The codebase adheres to software engineering best practices, ensuring high modul
 ```text
 Graph-based-Omics-Integration-and-Dimensionality-reduction-GID/
 │
-├── outputs/               # Automatically generated UMAPs, heatmaps, and CSV metrics
+├── outputs/               # Generate UMAPs, heatmaps, and CSV metrics
 ├── src/                   
 │   ├── __init__.py
 │   ├── dataset.py         # PyTorch CustomDataset and DataLoader preparation
