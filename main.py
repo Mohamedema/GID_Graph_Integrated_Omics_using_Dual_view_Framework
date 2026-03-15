@@ -197,7 +197,7 @@ def main():
     )
 
     print("\n==========================================")
-    print("🎉 All tasks completed successfully! Outputs are saved in 'outputs/'")
+    print("All tasks completed successfully! Outputs are saved in 'outputs/'")
     print("==========================================")
 
 if __name__ == "__main__":
