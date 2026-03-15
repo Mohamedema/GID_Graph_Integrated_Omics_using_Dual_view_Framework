@@ -1,4 +1,4 @@
-# GID: Graph Integrated Omics using Dual-view Framework 
+# GID: Graph Integrated Omics using Dual view Framework 
 
 [![Status](https://img.shields.io/badge/Status-Pre--publication-orange.svg)]()
 [![Python](https://img.shields.io/badge/Python-3.10-blue.svg)]()
