@@ -23,9 +23,8 @@ The GID framework addresses the challenge of multi-omics integration through a d
    * The pooled graph-topology vector is concatenated with the MLP sample embedding to form a unified, highly robust latent representation.
 
 ## 🔬 Single-Sample Network Inference (LIONESS)
-A core capability of this framework is the extraction of **individualized patient networks**. Following the generation of a global continuous adjacency matrix via Cosine Similarity, we apply a memory-safe, optimized implementation of the **LIONESS** (Linear Interpolation to Obtain Network Estimates for Single Samples) mathematical framework. 
+A core capability of this framework is the extraction of **individualized patient networks**. Following the generation of a global continuous adjacency matrix via Cosine Similarity, we apply the **LIONESS** (Linear Interpolation to Obtain Network Estimates for Single Samples) mathematical framework. 
 
-This module systematically masks individual samples to isolate their contribution to the global network, yielding a unique, weighted adjacency matrix for every single biological sample in the cohort without encountering CUDA memory bottlenecks.
 
 ## 📊 Supported Data Modalities
 The framework effectively integrates five distinct molecular layers:
