@@ -61,18 +61,23 @@ To ensure full reproducibility and avoid dependency conflicts (specifically with
 git clone [https://github.com/Mohamedema/Graph-based-Omics-Integration-and-Dimensionality-reduction-GID.git](https://github.com/Mohamedema/Graph-based-Omics-Integration-and-Dimensionality-reduction-GID.git)
 cd Graph-based-Omics-Integration-and-Dimensionality-reduction-GID
 
+```text
 git clone [https://github.com/Mohamedema/Graph-based-Omics-Integration-and-Dimensionality-reduction-GID.git](https://github.com/Mohamedema/Graph-based-Omics-Integration-and-Dimensionality-reduction-GID.git)
 cd Graph-based-Omics-Integration-and-Dimensionality-reduction-GID
+```
 
 2. Create and activate the Conda environment:
-
+3. 
+```text
 conda env create -f environment.yml
 conda activate gid_env
+```
 
 3. Run the complete pipeline:
 
+```text
 python main.py
-
+```
 📈 Downstream Analysis
 The automated evaluation module (src/evaluation.py) performs rigorous biological and statistical validation:
 
