@@ -32,7 +32,7 @@ The framework effectively integrates five distinct molecular layers:
 * Proteomics
 * DNA Methylation
 * CRISPR-Cas9 Gene Essentiality Screens
-* Copy Number Variations (CNV - Handled via discrete cross-entropy loss)
+* Copy Number Variations (CNV)
 
 ## 📂 Repository Structure
 The codebase adheres to software engineering best practices, ensuring high modularity and reproducibility:
