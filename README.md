@@ -52,7 +52,7 @@ Graph-based-Omics-Integration-and-Dimensionality-reduction-GID/
 ├── main.py                # Main execution pipeline
 ├── environment.yml        # Conda environment dependencies
 └── README.md              # Project documentation
-```text
+```
 
 🚀 Installation & Reproducibility
 To ensure full reproducibility and avoid dependency conflicts (specifically with PyTorch Geometric and CUDA toolkits), we provide a Conda environment file.
