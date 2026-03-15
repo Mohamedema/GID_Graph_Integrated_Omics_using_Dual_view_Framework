@@ -15,9 +15,9 @@ The **Graph Integrated Omics using Dual view (GID)** framework is a novel deep l
 ## 🧠 Methodology & Architecture
 The GID framework addresses the challenge of multi-omics integration through a dual-pathway, end-to-end optimizable approach:
 
-1. **Graph Convolutional Network (GCN) Autoencoder:** * Learns feature topology by utilizing a weighted Protein-Protein Interaction (PPI) network (derived from STRING) as prior biological knowledge.
-   * Processes multi-omics node features via GCN layers equipped with Batch Normalization, PReLU activations, and residual linear projections to ensure stable gradient flow.
-2. **Sample-Level Autoencoder:** * A parallel Multilayer Perceptron (MLP) autoencoder designed to capture global sample-specific signals from the concatenated multi-omics matrices.
+1. **Graph Convolutional Network (GCN) Autoencoder:**  Learns feature topology by utilizing a weighted Protein-Protein Interaction (PPI) network (derived from STRING) as prior biological knowledge.
+    Processes multi-omics node features via GCN layers equipped with Batch Normalization, PReLU activations, and residual linear projections to ensure stable gradient flow.
+2. **Sample-Level Autoencoder:**  A parallel Multilayer Perceptron (MLP) autoencoder designed to capture global sample-specific signals from the concatenated multi-omics matrices.
 3. **Hybrid Embedding via Attention Pooling:**
    * Node embeddings are aggregated using an expression-driven **Softmax pooling strategy**.
    * The pooled graph-topology vector is concatenated with the MLP sample embedding to form a unified, highly robust latent representation.
